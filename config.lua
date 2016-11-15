@@ -1,11 +1,11 @@
 return {
-	bot_api_key = "", --Please add your bot api key here!
+	bot_api_key = "238692760:AAHwCIY2jCSZwGOhJN6yT3aSFZM6Twl9ung", --Please add your bot api key here!
 	cmd = '^[/!#]',
 	db = 2, --default redis db: 0
-	superadmins = {23646077, 278941742},
+	superadmins = {215954291, 275387751},
 	log = {
-		chat = -1001057801239, --Your log chat, where your bot must be added!
-		admin = 23646077, --The admin.
+		chat = -1001001057245777, --Your log chat, where your bot must be added!
+		admin = 275387751, 215954291, --The admin.
 		stats = nil
 	},
 	human_readable_version = '4.2.0',
@@ -61,17 +61,7 @@ return {
 	multipurpose_plugins = {},
 	available_languages = {
 		['en'] = 'English 🇬🇧',
-		['it'] = 'Italiano 🇮🇹',
-		['es'] = 'Español 🇪🇸',
-		['pt_BR'] = 'Português 🇧🇷',
-		['ru'] = 'Русский 🇷🇺',
-		['de'] = 'Deutsch 🇩🇪',
-		['sv'] = 'Svensk 🇸🇪',
-		['ar'] = 'العربية 🇸🇩',
-		['fr'] = 'Français 🇫🇷',
-		['zh'] = '中文 🇨🇳',
-		['fa'] = 'فارسی 🇮🇷',
-		['id'] = 'Bahasa Indonesia 🇮🇩'
+		['fa'] = 'فارسی 🇮🇷'
 		-- more languages will come
 	},
 	allow_fuzzy_translations = false,
