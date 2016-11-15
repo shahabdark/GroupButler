@@ -262,7 +262,7 @@ local function dk_admins()
     for i, line in pairs(list) do
     	local kb_line = {}
     	for label, cb_data in pairs(line) do
-        	table.insert(kb_line, {text = '× '..label, callback_data = 'help:admins:'..cb_data})
+        	table.insert(kb_line, {text = '🎗 '..label, callback_data = 'help:admins:'..cb_data})
         end
         table.insert(keyboard.inline_keyboard, kb_line)
     end
@@ -287,11 +287,11 @@ end
 local function dk_main()
 	local keyboard = {inline_keyboard={}}
 	keyboard.inline_keyboard = {
-		{{text = _('Basics'), callback_data = 'help:basics'}},
-		{{text = _('Admin commands'), callback_data = 'help:admins:banhammer'}},
-		{{text = _('Normal users commands'), callback_data = 'help:users'}},
-		{{text = _('Commands in private'), callback_data = 'help:private'}},
-		{{text = _('Realm commands'), callback_data = 'help:realm'}},
+		{{text = _('💠Basics'), callback_data = 'help:basics'}},
+		{{text = _('💠Admin commands'), callback_data = 'help:admins:banhammer'}},
+		{{text = _('💠Normal users commands'), callback_data = 'help:users'}},
+		{{text = _('💠Commands in private'), callback_data = 'help:private'}},
+		{{text = _('💠Realm commands'), callback_data = 'help:realm'}},
 	}
 	
 	return keyboard
